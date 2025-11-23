@@ -1,132 +1,242 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"
-    />
-    <title>De Arriba Car Detailing</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>De Arriba Car Detailing | Pintura y Detailing Automotriz</title>
 
-  <body>
-    <header class="header">
-      <div class="menu container">
-        <a href="#" class="logo">De Arriba Paiting and Detailing Car</a>
-        <input type="checkbox" id="menu" />
-        <label for="menu"
-          ><img src="images/logotaller.png" class="menu-icono" alt=""
-        /></label>
-        <nav class="navbar">
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Horarios</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
-        </nav>
-      </div>
+  <meta name="description" content="Taller de pintura y detailing automotriz. Pulido, lustrado y restauración de vehículos con calidad profesional.">
 
-      <div class="header-content container">
-        <div class="header-info">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <h1>Estética y Pintura Automotriz</h1>
-          <br />
-          <br />
-          <p>Excelencia en estética, carrocería y pintura automotriz</p>
-          <a href="#" class="btn-1">Contactanos</a>
-          <br />
-          <br />
+  <!-- Favicon usando imagen existente -->
+  <link rel="icon" type="image/jpeg" href="images/favicon.jpg" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JavaScript moderno -->
+  <script src="main.js" defer></script>
+</head>
+<body id="top">
+
+  <!-- HEADER / NAV -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <img src="images/logotaller.png" alt="De Arriba Car Detailing" class="logo__img" />
+        <div class="logo__text">
+          <span class="logo__title">De Arriba</span>
+          <span class="logo__subtitle">Car Detailing</span>
+        </div>
+      </a>
+
+      <!-- Toggle móvil -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle__label">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <div class="hero__text reveal">
+          <p class="hero__tagline">Taller de pintura y estética automotriz</p>
+          <h1>Hacemos que tu vehículo vuelva a lucir como nuevo</h1>
+          <p class="hero__description">
+            Pintura, corrección de detalles, pulido y protección para autos, camionetas y vehículos especiales.
+            Trabajo artesanal, materiales de primera calidad y compromiso con el resultado.
+          </p>
+          <div class="hero__actions">
+            <!-- Botón real de WhatsApp con el número de tu papá -->
+            <a
+              href="https://wa.me/5492302696239?text=Hola%21%20Estoy%20interesado%20en%20un%20servicio%20de%20pintura%20o%20detailing%20para%20mi%20auto.%20Quisiera%20saber%20precios%20y%20disponibilidad.%20Gracias."
+              class="btn btn--primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contactanos por WhatsApp
+            </a>
+
+            <a href="#trabajos" class="btn btn--secondary">
+              Ver trabajos realizados
+            </a>
+          </div>
         </div>
       </div>
-    </header>
-
-    <section class="detaling container">
-      <div class="detaling-1">
-        <h2><span>Que hacemos</span> en el Taller?</h2>
-        En nuestro taller de pintura de autos ofrece servicios de alta calidad
-        para restaurar y mejorar la apariencia de tu vehículo. Utilizamos
-        materiales y técnicas de última generación para asegurar un acabado
-        impecable y duradero.
-        <br />
-      </div>
-
-      <div class="detaling-2">
-        <img class="img-1" src="images/pintando1.jpg" alt="car" />
-        <img class="img-2" src="images/pistola2.png" alt="car" />
-        <br />
-      </div>
     </section>
-    <br />
 
-    <section class="detaling container">
-      <div class="detaling-1">
-        <h2><span>Ofrecemos</span> lo mejor para tu vehiculo</h2>
-        <p>
-          ¡Dale a tu vehículo el cuidado que se merece con nuestros servicios
-          integrales! Ofrecemos una limpieza total que dejará tu auto impecable,
-          complementada con un lustrado profesional que realza su brillo y
-          belleza. Además, nos especializamos en la restauración y pintura de
-          todo tipo de vehículos, utilizando materiales de primera calidad para
-          asegurar un acabado duradero y estéticamente impecable. Nuestro equipo
-          de expertos está comprometido con la excelencia en cada detalle,
-          garantizando que tu vehículo no solo luzca como nuevo, sino que
-          también esté protegido contra el desgaste. Confía en nosotros para
-          transformar y revitalizar tu auto, ¡porque tu vehículo merece lo
-          mejor!
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section section--light">
+      <div class="container">
+        <h2 class="section__title reveal">Servicios</h2>
+        <p class="section__subtitle reveal">
+          Nos dedicamos a la estética y pintura automotriz cuidando cada detalle del proceso,
+          desde la preparación hasta el acabado final.
         </p>
-        <br />
-      </div>
 
-      <div class="detaling-2">
-        <img class="img-1" src="images/lijado1.jpg" alt="car" />
-        <img class="img-2" src="images/lustradora1.jpg" alt="car" />
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__image-wrapper">
+              <img src="images/pintando4.png" alt="Pintura automotriz en proceso" class="card__img" />
+            </div>
+            <h3 class="card__title">Pintura automotriz</h3>
+            <p class="card__text">
+              Pintura parcial y completa, corrección de golpes y rayones, igualación de color y acabados
+              profesionales que respetan la línea original del vehículo.
+            </p>
+          </article>
 
-        <br />
+          <article class="card reveal">
+            <div class="card__image-wrapper">
+              <img src="images/lustradora1.jpg" alt="Pulido y lustrado de auto" class="card__img" />
+            </div>
+            <h3 class="card__title">Pulido y lustrado</h3>
+            <p class="card__text">
+              Pulido para eliminar marcas superficiales y lustrado para recuperar el brillo y la profundidad
+              del color, ideal para renovar la imagen del vehículo.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__image-wrapper">
+              <img src="images/pistola1.jpg" alt="Aplicación de pintura con pistola" class="card__img" />
+            </div>
+            <h3 class="card__title">Detailing y protección</h3>
+            <p class="card__text">
+              Tratamientos de protección, retoques finos y terminaciones de detalle para que tu auto no solo
+              se vea bien hoy, sino por mucho más tiempo.
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="detaling container">
-      <div class="detaling-1">
-        <h2><span>Calidad</span> de nuestros trabajos</h2>
-        <p>
-          Cada trabajo es realizado con mucha pasion, garantizando no solo una
-          estética deslumbrante, sino también una durabilidad superior. Ya sea
-          que desees restaurar el brillo original de tu coche o darle un nuevo y
-          vibrante color, nuestro compromiso es entregar resultados que superen
-          tus expectativas. Confía en nosotros para darle a tu auto el cuidado y
-          la atención que merece. ¡Tu vehículo se lo merece!
+    <!-- DIFERENCIALES / TEXTO + IMAGEN -->
+    <section class="section section--dark">
+      <div class="container diferencia">
+        <div class="diferencia__text reveal">
+          <h2 class="section__title section__title--light">
+            Calidad, oficio y dedicación en cada trabajo
+          </h2>
+          <p class="section__subtitle section__subtitle--light">
+            Combinamos experiencia en pintura automotriz con un enfoque moderno en estética y protección,
+            para que cada vehículo que entra al taller salga mejor de lo que llegó.
+          </p>
+
+          <ul class="feature-list">
+            <li>✔ Preparación correcta de superficies para un acabado duradero.</li>
+            <li>✔ Uso de materiales y productos de primeras marcas.</li>
+            <li>✔ Comunicación clara con el cliente sobre tiempos y trabajos a realizar.</li>
+            <li>✔ Cuidado del vehículo como si fuera propio.</li>
+          </ul>
+        </div>
+
+        <div class="diferencia__image reveal">
+          <img src="images/innovacion.png" alt="Innovación y calidad en el taller" />
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA / TRABAJOS -->
+    <section id="trabajos" class="section section--light">
+      <div class="container">
+        <h2 class="section__title reveal">Algunos trabajos realizados</h2>
+        <p class="section__subtitle reveal">
+          Una muestra de vehículos que pasaron por el taller para pintura, reparación y estética.
         </p>
-        <br />
-      </div>
 
-      <div class="detaling-2">
-        <img class="img-1" src="images/pintando4.png" alt="car" />
-        <img class="img-2" src="images/pistola1.jpg" alt="car" />
-        <br />
-        <a href="#" class="btn-2">solicita tu presupuesto</a>
-        <br />
+        <div class="gallery">
+          <figure class="gallery__item reveal">
+            <img src="images/pintando1.jpg" alt="Pintura de vehículo en proceso" class="gallery__img" />
+            <figcaption class="gallery__caption">Pintura completa de carrocería</figcaption>
+          </figure>
+
+          <figure class="gallery__item reveal">
+            <img src="images/lijado1.jpg" alt="Lijado de carrocería" class="gallery__img" />
+            <figcaption class="gallery__caption">Preparación y lijado profesional</figcaption>
+          </figure>
+
+          <figure class="gallery__item reveal">
+            <img src="images/pistola2.png" alt="Aplicación de pintura con pistola" class="gallery__img" />
+            <figcaption class="gallery__caption">Aplicación uniforme de pintura</figcaption>
+          </figure>
+
+          <figure class="gallery__item reveal">
+            <img src="images/pistola8.png" alt="Detalle de pistola de pintura" class="gallery__img" />
+            <figcaption class="gallery__caption">Detalle del equipamiento del taller</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
-    <footer class="footer container">
-      <h3>
-        <img src="images/logomini.png" alt="car" />
-      </h3>
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section--contact">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <h2 class="section__title section__title--light">Contacto</h2>
+          <p class="section__subtitle section__subtitle--light">
+            Escribinos para consultar, pedir un presupuesto o coordinar un turno para tu vehículo.
+          </p>
 
-      <div class="linkis">
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Informacion</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
+          <ul class="contact__list">
+            <li><strong>Taller:</strong> De Arriba Car Detailing</li>
+            <li><strong>Teléfono / WhatsApp:</strong> 2302 696239</li>
+            <li><strong>Ubicación:</strong> (Completar dirección del taller)</li>
+            <li><strong>Horarios:</strong> Lunes a Viernes de 9 a 18 hs</li>
+          </ul>
+
+          <div class="contact__buttons">
+            <a
+              href="https://wa.me/5492302696239?text=Hola%21%20Estoy%20interesado%20en%20un%20servicio%20de%20pintura%20o%20detailing%20para%20mi%20auto.%20Quisiera%20saber%20precios%20y%20disponibilidad.%20Gracias."
+              class="btn btn--primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Escribir por WhatsApp
+            </a>
+
+            <a
+              href="mailto:contacto@dearribacardetailing.com?subject=Consulta%20por%20trabajo%20de%20pintura%20o%20detailing"
+              class="btn btn--secondary"
+            >
+              Enviar un correo
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__brand reveal">
+          <img src="images/logomini.png" alt="Logo De Arriba Car Detailing" />
+        </div>
       </div>
-    </footer>
-  </body>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>&copy; <span id="year"></span> De Arriba Car Detailing. Todos los derechos reservados.</p>
+      <p class="footer__by">
+        Desarrollado por <span class="footer__author">Matías De Arriba</span>
+      </p>
+    </div>
+  </footer>
+
+</body>
 </html>
