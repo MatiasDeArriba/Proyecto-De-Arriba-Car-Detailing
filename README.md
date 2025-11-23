@@ -1,56 +1,39 @@
-# De Arriba Car Detailing
+# 🚗 De Arriba Car Detailing  
+Landing page moderna para el taller de **Pintura y Detailing Automotriz** de la familia De Arriba.  
+Sitio estático profesional desarrollado en **HTML, CSS y JavaScript (moderno 2025)**.
 
-Landing page para el taller de pintura y estética automotriz **"De Arriba Car Detailing"**, desarrollado como proyecto web estático utilizando **HTML, CSS y JavaScript**.
-
-El objetivo es mostrar los servicios del taller de forma clara y profesional, destacando la calidad del trabajo y facilitando el contacto de los clientes.
+Esta web fue creada para mostrar servicios, trabajos, información de contacto y facilitar que los clientes puedan escribir directamente por **WhatsApp**, con un diseño limpio, visual y profesional.
 
 ---
 
-## 🚗 Características principales
+## ✨ Características principales
 
-- **Sección principal (hero)** con el nombre del taller y un mensaje claro:
-  - "Estética y Pintura Automotriz"
-  - Llamado a la acción: botón *“Contactanos”*.
-
-- **Menú de navegación responsive**:
-  - Logo con el nombre del taller.
-  - Menú hamburguesa en pantallas móviles.
-  - Ítems: Inicio, Servicios, Horarios, Contacto.
-
-- **Sección “¿Qué hacemos en el taller?”**:
-  - Descripción clara de los servicios de pintura y estética automotriz.
-  - Texto orientado al cliente, explicando el valor del trabajo.
-
-- **Sección “Calidad de nuestros trabajos”**:
-  - Explicación del enfoque en la calidad, durabilidad y detalle.
-  - Ideal para acompañar con imágenes de trabajos reales.
-
-- **Imágenes destacadas**:
-  - Uso de imágenes del proceso de pintura, lijado, pulido, etc.
-  - Refuerzan visualmente el trabajo del taller.
-
-- **Footer con logo y enlaces**:
-  - Logo mini del taller.
-  - Enlaces rápidos: Inicio, Información, Contacto.
-
-- **JavaScript moderno (2025+)**:
-  - Scroll suave entre secciones.
-  - Barra de progreso en la parte superior según el scroll.
-  - Animaciones suaves al hacer scroll sobre textos e imágenes.
-  - Código escrito en **vanilla JavaScript**, sin librerías externas.
+- **Hero profesional con imagen de fondo**, overlay y contenido responsivo.
+- Botón real de **WhatsApp**, con mensaje pre–cargado y el número del taller.
+- **Secciones totalmente rediseñadas**:
+  - Servicios (pintura, pulido/lustrado, detailing)
+  - Diferenciales del taller
+  - Galería de trabajos realizados
+  - Contacto con WhatsApp y correo
+- **Animaciones suaves "reveal"** al hacer scroll (IntersectionObserver).
+- **Scroll suave** entre secciones.
+- **Barra de progreso de lectura** moderna en la parte superior.
+- **Menú responsive con hamburguesa**, cierre automático y enlaces activos dinámicos.
+- **Footer actualizado automáticamente** con el año actual.
+- **Sin librerías externas** → solo HTML + CSS + JS puro.
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-- **HTML5**: estructura semántica básica de la landing page.
-- **CSS3**:
-  - Tipografía con Google Fonts (`Poppins`).
-  - Layout centrado y responsivo.
-  - Menú responsive con checkbox (`input type="checkbox"`) y `@media queries`.
-- **JavaScript (ES2020+)**:
-  - `addEventListener`, `IntersectionObserver`, `classList`, `scrollTo`, etc.
-  - Animaciones de entrada al hacer scroll y mejora de la UX.
+- **HTML5** – estructura semántica y accesible.
+- **CSS3** – diseño moderno, responsive, grid adaptativo, animaciones visuales.
+- **JavaScript ES2020+**:  
+  - `IntersectionObserver`  
+  - `scrollTo` con smooth behavior  
+  - menú móvil controlado por JS  
+  - barra de progreso dinámica  
+  - highlight automático del menú  
 
 ---
 
@@ -58,14 +41,21 @@ El objetivo es mostrar los servicios del taller de forma clara y profesional, de
 
 ```text
 Proyecto-De-Arriba-Car-Detailing/
-├── index.html       # Página principal del sitio
-├── style.css        # Estilos principales del sitio
-├── main.js          # Lógica de interacción y animaciones (nuevo)
-└── images/          # Imágenes del taller y trabajos
+│
+├── index.html       # Página principal (landing completa)
+├── style.css        # Estilos modernos, responsivos y optimizados
+├── main.js          # Lógica moderna (2025)
+│
+└── images/          # Imágenes del taller ya existentes
     ├── bg.jpg
-    ├── logotaller.png
+    ├── favicon.jpg
+    ├── innovacion.png
+    ├── lijado1.jpg
     ├── logomini.png
+    ├── logotaller.png
+    ├── lustradora1.jpg
+    ├── pintando1.jpg
     ├── pintando4.png
     ├── pistola1.jpg
-    ├── lijado1.jpg
-    └── lustradora1.jpg
+    ├── pistola2.png
+    └── pistola8.png
