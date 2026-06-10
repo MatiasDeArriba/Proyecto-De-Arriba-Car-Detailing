@@ -42,7 +42,7 @@ Esta web fue creada para mostrar servicios, trabajos, información de contacto y
 ![Preview del sitio](images/preview.png)
 
 
-🌐 **[Ver sitio en vivo]([https://tu-proyecto.vercel.app](https://dearribacar.vercel.app/))**
+🌐 **[Ver sitio en vivo](https://dearribacar.vercel.app/)**
 
 ---
 
