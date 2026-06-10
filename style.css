@@ -441,6 +441,11 @@ body {
 .footer__author {
   color: #ffcc33;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.footer__author:hover {
+  text-decoration: underline;
 }
 
 /* ------------------------------
