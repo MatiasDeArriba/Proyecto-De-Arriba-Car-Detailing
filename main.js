@@ -151,6 +151,16 @@
     const scrollPos = window.scrollY || window.pageYOffset;
     const OFFSET = 100;
 
+    // Si estamos al final de la página, marcar la última sección
+    const nearBottom = window.innerHeight + scrollPos >= document.documentElement.scrollHeight - 10;
+    if (nearBottom) {
+      const lastSection = sections[sections.length - 1];
+      navLinks.forEach((link) => {
+        link.classList.toggle("is-active", link.getAttribute("href") === `#${lastSection.id}`);
+      });
+      return;
+    }
+
     let currentSectionId = "#inicio";
 
     sections.forEach((section) => {
